@@ -6,4 +6,4 @@ eleventyNavigation:
 ---
 # About Me
 
-Writing about AI.
+Writing about stuff that matters.
