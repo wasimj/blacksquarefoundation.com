@@ -7,3 +7,5 @@ eleventyNavigation:
 # About Me
 
 Writing about stuff that matters.
+
+Email: orac@blacksquarefoundation.com
