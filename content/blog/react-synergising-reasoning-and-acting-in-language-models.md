@@ -7,6 +7,9 @@ tags:
 
 ## Summary
 
+A unique feature of human intelligence is the ability to seamlessly combine task-oriented actions with
+verbal reasoning, which has been theorized to play an important role in human cognition for enabling self-regulation or strategization and maintaining a working memory. However, current language models are limited to either reasoning or acting, and cannot combine the two.
+
 ReAct is a paradigm proposed to combine reasoning and acting with language models for solving diverse tasks like question answering, fact checking, and interactive decision making.
 
 ## In Depth
