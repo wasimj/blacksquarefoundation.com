@@ -6,6 +6,6 @@ eleventyNavigation:
 ---
 # About Me
 
-Writing about stuff that matters.
+I do research AI, LLMs and Agents (amongst other things) and then build things.
 
 Email: orac@blacksquarefoundation.com
