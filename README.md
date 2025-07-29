@@ -1,3 +1,14 @@
+# TLDR
+
+code /home/wasim/Code/www.blacksquarefoundation.com/www.blacksquarefoundation.com.code-workspace
+
+
+
+
+
+Otherwise, original docs below.
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
 # eleventy-base-blog v8
 
 A starter repository showing how to build a blog with the [Eleventy](https://www.11ty.dev/) site generator (using the [v2.0 release](https://www.11ty.dev/blog/eleventy-v2/)).
