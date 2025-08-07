@@ -95,3 +95,20 @@ AI agents are exposed to threats from multiple angles:
 - **Explainability as a security tool** – Understand *why* the agent made a decision.
 - **Zero-trust for agents** – Treat every action/command as potentially unsafe unless proven otherwise.
 - **Secure memory & state management** – Encrypting and controlling what agents remember across sessions.
+
+
+## 🔍 Comparison Table: AI Agent Security vs OWASP Top 10
+
+
+| **OWASP Top 10 (2021)**                         | **Related AI Agent Security Concern**                  | **AI-Specific Notes**                                                             |
+| ----------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------------------------- |
+| **1. Broken Access Control**                    | Over-permissioned agents, weak tool/API access control | AI agents need strict limits on what tools/functions they can invoke.             |
+| **2. Cryptographic Failures**                   | Insecure storage of user inputs, logs, memory          | Especially critical in agents that retain conversation history or sensitive data. |
+| **3. Injection (SQL, NoSQL, etc.)**             | **Prompt injection**, tool invocation injection        | Unique to LLMs and action-based agents; can manipulate agent behavior or access.  |
+| **4. Insecure Design**                          | Misaligned goals, lack of constraint logic             | AI agents require well-scoped objectives to avoid dangerous behavior.             |
+| **5. Security Misconfiguration**                | Overexposed APIs, unrestricted plugins/tools           | Misconfigured agents can lead to uncontrolled commands or data leaks.             |
+| **6. Vulnerable & Outdated Components**         | Supply chain attacks, insecure agent plugins           | Many agent frameworks pull dependencies from unverified sources.                  |
+| **7. Identification & Authentication Failures** | Weak user/agent auth, spoofing                         | E.g., impersonating users to hijack agent sessions or commands.                   |
+| **8. Software & Data Integrity Failures**       | Tampering with model weights or memory                 | Model integrity and safe update mechanisms are essential.                         |
+| **9. Security Logging & Monitoring Failures**   | Lack of agent behavior logs, no anomaly detection      | Without logging, agent actions can't be audited or debugged.                      |
+| **10. Server-Side Request Forgery (SSRF)**      | Autonomous API calls made without verification         | Agents making uncontrolled API/web requests can be manipulated.                   |
